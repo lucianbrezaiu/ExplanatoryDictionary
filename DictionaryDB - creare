@@ -1,0 +1,29 @@
+﻿CREATE TABLE Category
+(
+    ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    Name VARCHAR(30)
+)
+
+CREATE TABLE User
+(
+    ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    Username VARCHAR(30),
+    Password VARCHAR(30),
+    State VARCHAR(30)
+)
+
+CREATE TABLE Word
+(
+    ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    IDCategory references Category(ID) on delete cascade,
+    Name VARCHAR(30),
+    Description VARCHAR(150)
+)
+
+CREATE TABLE UserWord
+(
+     ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+     IDWord references Word(ID) on delete cascade,
+     IDUser references User(ID) on delete cascade,
+     Rate INT
+)

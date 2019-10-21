@@ -1,0 +1,4 @@
+drop table Category
+drop table UserWord
+drop table User
+drop table Word

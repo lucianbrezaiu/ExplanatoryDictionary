@@ -1,0 +1,77 @@
+﻿INSERT INTO Category(Name) VALUES ('Animale')
+
+INSERT INTO Word(IDCategory,Name,Description) VALUES
+(1,'urs','mamifer omnivor cu trupul masiv, acoperit de o blană brună-negricioasă sau roșcată, cu botul ascuțit și cu coada scurtă'),
+(1,'vulpe','mamifer carnivor sălbatic, de mărimea unui câine, cu blana roșcată, cu coada lungă și stufoasă, cu urechile ascuțite și cu botul îngust'),
+(1,'lup','mamifer carnivor din familia canidelor, acoperit cu blană sură, cu gâtul gros, cu capul mare, cu botul și urechile ascuțite și cu coada stufoasă'),
+(1,'cal','animal domestic erbivor, imparicopitat, folosit la călărie și la tracțiune'),
+(1,'oaie','animal domestic rumegător, crescut pentru lână, lapte și carne'),
+(1,'câine','mamifer carnivor din familia canidelor, domesticit, folosit pentru pază, vânătoare etc.'),
+(1,'pisică','mamifer domestic carnivor din familia felidelor, cu corpul suplu, acoperit cu blană deasă, cu botul foarte scurt, cu maxilarele puternice și cu ghearele retractile și ascuțite'),
+(1,'vacă','animal domestic din specia bovinelor, femela taurului'),
+(1,'porc','mamifer domestic omnivor, cu capul de formă conică, cu botul alungit, cu corpul acoperit cu păr aspru, scurt și relativ rar, crescut pentru carnea și grăsimea lui'),
+(1,'broască','animal amfibiu din clasa batracienilor, fără coadă, cu picioarele dinapoi mai lungi, adaptate pentru sărit, cu gura largă și ochii bulbucați'),
+(1,'elefant','numele a două animale mamifere din ordinul proboscidienilor, cele mai mari animale terestre de azi, cu pielea groasă și aspră, cu nasul modificat într-o trompă mobilă și cu colți foarte lungi'),
+(1,'leu',' mamifer carnivor de talie mare din familia felidelor, cu corpul acoperit cu blană scurtă de culoare gălbuie și cu o coamă bogată în jurul capului, deosebit de puternic și de vorace'),
+(1,'girafă','gen de mamifere rumegătoare cu gâtul și picioarele de dinainte lungi, cu capul mic, cu blana albicioasă cu pete brune, care trăiesc în Africa'),
+(1,'tigru','mamifer carnivor din familia felidelor, de talie mare, cu blana de culoare galbenă-roșcată cu dungi negre, transversale'),
+(1,'zebră','nume generic dat speciilor de cai sălbatici africani cu blana vărgată cu benzi alternative, deschise și închise;'),
+(1,'rinocer','nume dat la două genuri de mamifere pahiderme imparicopitate mari din Africa și Asia, cu pielea aproape lipsită de păr, cu unul sau cu două coarne în frunte'),
+(1,'căprioară','animal rumegător sălbatic din familia cerbului, mai mic decît acesta, care trăiește în pădurile de dealuri și de șes'),
+(1,'sconcs','mic mamifer carnivor din America, înrudit și asemănător cu dihorul, vânat sau crescut pentru blana sa prețioasă, de diverse culori'),
+(1,'cerb','mamifer patruped rumegător de pădure, de talie mare, zvelt, cu coarne ramificate, care cad și se reînnoiesc în flecare an, cu coada scurtă'),
+(1,'veveriță','mamifer rozător arboricol, de talie mică, cu blană roșcată sau neagră pe spate și albă pe piept, cu coada lungă și stufoasă '),
+(1,'iepure','gen de mamifere din ordinul rozătoarelor, cu urechile lungi, cu doi dinți incisivi suplimentari pe falca superioară, cu picioarele dinapoi mai lungi decât cele dinainte și cu coada foarte scurtă')
+
+INSERT INTO Category(Name) VALUES ('Păsări')
+
+INSERT INTO Word(IDCategory,Name,Description) VALUES
+(2,'barză','pasăre migratoare din ordinul picioroangelor, cu ciocul, gâtul și picioarele foarte lungi'),
+(2,'egretă','gen de păsări migratoare de baltă, de culoare albă, cu spatele împodobit cu un mănunchi de pene ornamentale lungi'),
+(2,'porumbel','nume dat mai multor specii de păsări sălbatice sau domestice, de talie mijlocie sau mică, cu ciocul scurt, cu penajul divers colorat'),
+(2,'vultur','numele mai multor păsări răpitoare de zi, mari, cu ciocul lung, ascuțit și coroiat, cu aripi lungi și cu picioare puternice, cu gheare tari, care se hrănesc cu animale vii'),
+(2,'papagal','nume dat mai multor păsări tropicale arboricole, cu ciocul mare și încovoiat, cu pene felurit și viu colorate'),
+(2,'bufniță','cea mai mare pasăre răpitoare de noapte, cu penajul de culoare brun-ruginie, cu dungi negre și galbene, cu capul mare și ochii galben-portocalii mari'),
+(2,'ciocârlie','pasăre cântătoare mică, cu penele pestrițe, care zboară vertical la mari înălțimi'),
+(2,'lebădă','gen de păsări acvatice, mai mari decât gâsca, cu pene albe sau (rar) negre și cu gâtul lung și arcuit'),
+(2,'păun','pasăre domestică mare, cu penajul masculului strălucitor, albastru-verzui și cu coada foarte lungă, pe care o poate răsfira în formă de evantai'),
+(2,'flamingo','pasăre migratoare de apă, de mărimea unei berze, cu gâtul și cu picioarele foarte lungi și cu pene de culoare albă cu nuanțe roz'),
+(2,'pupăză','pasăre insectivoră migratoare, cu penaj pestriț, cu ciocul lung și curbat și cu o creastă de pene mari, portocalii, în vârful capului'),
+(2,'corb','pasăre semirăpitoare, omnivoră, din familia corvidelor, mai mare decât cioara, cu pene negre, lucioase, cioc și picioare puternice'),
+(2,'pinguin','gen de păsări palmipede marine, ihtiofage, cu ciocul lung, cu aripile scurte, negre, improprii pentru zbor, servind ca înotătoare, cu picioarele scurte')
+
+INSERT INTO Category(Name) VALUES ('Insecte')
+
+INSERT INTO Word(IDCategory,Name,Description) VALUES
+(3,'râmă','vierme anelid cu corpul lung, de culoare roșcată, care trăiește în pământ sau pe sub pietre, hrănindu-se cu pământ bogat în resturi vegetale'),
+(3,'vierme','nume dat unor animale nevertebrate, lipsite de picioare, cu corpul moale, lunguieț, de obicei cu o piele lucioasă, care trăiesc în sol, în apă sau ca parazite pe plante și pe animale'),
+(3,'lăcustă','nume dat mai multor specii de insecte din ordinul ortopterelor, dăunătoare agriculturii, care se caracterizează prin lungimea antenelor și prin picioarele posterioare foarte lungi'),
+(3,'albină','insectă din familia apidelor, cu picioarele posterioare adaptate pentru strângerea polenului și cu abdomenul prevăzut cu un ac veninos'),
+(3,'țănțar','numele mai multor insecte din ordinul dipterelor, cu corpul și cu picioarele lungi și subțiri, cu aripi înguste, ale căror larve se dezvoltă la cele mai multe specii în ape stătătoare'),
+(3,'viespe','nume dat mai multor insecte himenoptere, asemănătoare cu albina, prevăzute de obicei în partea posterioară a abdomenului cu un ac și cu o pungă cu venin'),
+(3,'bondar','insectă mare din ordinul himenopterelor; (popular) nume dat oricărei insecte mari care bâzâie'),
+(3,'muscă','denumire dată mai multor genuri de insecte cu aparatul bucal adaptat pentru supt și înțepat, dintre care cea mai cunoscută (Musca domestica) trăiește pe lângă casa omului'),
+(3,'fluture','nume generic dat insectelor din ordinul lepidopterelor, care au corpul bombat sau alungit și catifelat, patru aripi membranoase, acoperite cu solzi mărunți de culori diferite'),
+(3,'cărăbuș',' insectă coleopteră foarte dăunătoare, de culoare castanie, cu elitrele dure, care apare pe la începutul lunii mai și se hrănește cu frunzele arborilor'),
+(3,'libelulă','ordin de insecte cu corpul lung și subțire, cu capul mare și cu aripile străvezii, care trăiesc de obicei pe lângă ape')
+
+INSERT INTO Category(Name) VALUES ('Pesti')
+
+INSERT INTO Word(IDCategory,Name,Description) VALUES
+(4,'păstrăv','pește de apă dulce din familia salmonidelor, acoperit cu solzi mici, cu puncte negre și roșii și burta gălbuie, care trăiește în apele de munte'),
+(4,'calcan','pește de mare cu corpul rombic, turtit lateral și asimetric, având ambii ochi pe partea stângă și solzi lungi, tari pe burtă și pe spate'),
+(4,'crap', 'pește de apă dulce din familia ciprinidelor, cu solzii mari, argintii-ruginii, cu buza groasă și cu două perechi de mustăți pe falca superioară'),
+(4,'șalău','pește răpitor de apă dulce, lung de 30-70 cm, cu greutatea de 1-3 kg, corpul fusiform, acoperit cu solzi mărunți de culoare cenușie și cu gura mare cu dinți ascuțiți'),
+(4,'știucă','pește răpitor de apă dulce, cu corpul lung, aproape cilindric, cu gura mare cu mulți dinți și cu botul turtit ca ciocul de rață'),
+(4,'hering','pește marin asemănător cu scrumbia, lung de circa 20 cm, cu spinarea verde-albăstrie și cu laturile argintii'),
+(4,'biban','pește răpitor de apă dulce, cu laturile corpului acoperite cu dungi negre transversale, cu carnea albă, gustoasă'),
+(4,'merluciu','pește marin din fam. gadidae (cod), cu corpul fusiform asemănător șalăului, cu solzi mai mari decât alte gadidae, cu capul ușor aplatizat, dinți puternici și mustăți')
+
+INSERT INTO User(Username,Password,State) VALUES
+('luki','vikings','administrator'),
+('mihnea','fieni','unauthorized'),
+('turea','nas','authorized'),
+('trunchi','123','unauthorized')
+
+INSERT INTO UserWord(IDWord,IDUser,rate) VALUES
+(12,2,2),(43,3,1),(2,2,1),(25,4,5),(2,4,3),(12,4,7)
